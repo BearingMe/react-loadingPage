@@ -1,13 +1,13 @@
-import React from 'react'
+// import React from 'react'
 
-export default function Circle() {
-  var progress_circle = $(".my-progress-bar").gmpc({
+// export default function Circle() {
+//   var progress_circle = $(".my-progress-bar").gmpc({
     
-    })
+//     })
     
-  return (
-    <div className="my-progress-bar">
+//   return (
+//     <div className="my-progress-bar">
 
-    </div>
-  )
-}
+//     </div>
+//   )
+// }

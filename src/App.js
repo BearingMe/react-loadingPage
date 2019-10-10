@@ -7,8 +7,8 @@ import Circle from './componets/Circle';
 function App() {
   return (
     <Fragment>
-      {/* <Loading /> */}
-      <Circle />
+      <Loading />
+      {/* <Circle /> */}
     </Fragment>
   )
 }
