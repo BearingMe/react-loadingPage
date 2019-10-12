@@ -1,14 +1,14 @@
 import React, { Fragment } from 'react';
 import './App.css';
 
-import Loading from './componets/Loading'
-import Circle from './componets/Circle';
+import Loading from './components/Loading'
+import Dashboard from './components/Dashboard/Index';
 
 function App() {
   return (
     <Fragment>
       <Loading />
-      {/* <Circle /> */}
+      <Dashboard />
     </Fragment>
   )
 }

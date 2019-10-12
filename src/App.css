@@ -7,6 +7,7 @@ body,
     height: 100vh;
     overflow: hidden;
     font-family: 'Arial';
+    z-index: 1000;
 }
 
 .container-loading {
@@ -15,7 +16,7 @@ body,
     left: 0;
     animation: hide;
     animation-delay: 5500ms;
-    animation-duration: 2s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
 }
 
@@ -56,7 +57,7 @@ body,
 
 @keyframes hide {
     100% {
-        top: -100%;
+        top: -150%;
     }
 }
 
