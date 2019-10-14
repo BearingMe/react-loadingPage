@@ -7,7 +7,7 @@ import Dashboard from './components/Dashboard/Index';
 function App() {
   return (
     <Fragment>
-      <Loading />
+      {/* <Loading />  */}
       <Dashboard />
     </Fragment>
   )

@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 
 import './dashboard.css'
 import Topbar from './Topbar/Index'
+import PageContent from './PageContent/Index'
 
 export default class Dashboard extends Component {
   render() {
@@ -11,6 +12,7 @@ export default class Dashboard extends Component {
           <div className="content-wrapper">
             <div className="content">
               <Topbar />
+              <PageContent />
 
             </div>
           </div>
